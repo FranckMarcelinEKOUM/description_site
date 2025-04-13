@@ -1,0 +1,391 @@
+
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <style>
+                body {
+                    background-color: #000;
+                    color: #fff;
+                    font-family: Arial, sans-serif;
+                }
+                .table-container {
+                    overflow-x: auto;
+                    max-height: 80vh;
+                }
+                table {
+                    width: 100%;
+                    border-collapse: collapse;
+                }
+                th, td {
+                    padding: 10px;
+                    border: 1px solid #fff;
+                    text-align: left;
+                    white-space: nowrap;
+                }
+                th {
+                    background-color: #333;
+                    position: sticky;
+                    top: 0;
+                    z-index: 2;
+                }
+                tr:nth-child(even) {
+                    background-color: #222;
+                }
+            </style>
+            <title>Prédictions des Scores</title>
+        </head>
+        <body>
+            <h1 style="text-align: center;">Prédictions des Scores</h1>
+            <div class="table-container">
+                <table border="1" style="margin: 0 auto;">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Date</th>
+            <th>Championnat</th>
+            <th>Équipe 1</th>
+            <th>Équipe 2</th>
+            <th>Heure</th>
+            <th>Prédiction Total Score</th>
+            <th>Pourc. Réussite Total</th>
+            <th>Résultat Total Doublon</th>
+            <th>Prédiction Score Équipe 1</th>
+            <th>Pourc. Réussite Équipe 1</th>
+            <th>Résultat Équipe 1 Doublon</th>
+            <th>Prédiction Score Équipe 2</th>
+            <th>Pourc. Réussite Équipe 2</th>
+            <th>Résultat Équipe 2 Doublon</th>
+            <th>Doublon Trouvé</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>170055</td>
+            <td>2025-01-19 00:00:00</td>
+            <td>FC24. Penalty</td>
+            <td>Liverpool</td>
+            <td>Paris Saint-Germain</td>
+            <td>21:35</td>
+            <td>9.44</td>
+            <td>42.62%</td>
+            <td><div style='max-width:150px; overflow-x:auto; white-space: nowrap;'>6</div></td>
+            <td>4.60</td>
+            <td>0.00%</td>
+            <td><div style='max-width:150px; overflow-x:auto; white-space: nowrap;'>2</div></td>
+            <td>4.47</td>
+            <td>88.15%</td>
+            <td><div style='max-width:150px; overflow-x:auto; white-space: nowrap;'>4</div></td>
+            <td>Oui</td>
+        </tr>
+        <tr>
+            <td>169135</td>
+            <td>2025-01-19 00:00:00</td>
+            <td>FC 24. Spain Championship</td>
+            <td>Real Sociedad</td>
+            <td>Villarreal</td>
+            <td>06:10</td>
+            <td>3.05</td>
+            <td>76.27%</td>
+            <td><div style='max-width:150px; overflow-x:auto; white-space: nowrap;'>4</div></td>
+            <td>1.60</td>
+            <td>39.89%</td>
+            <td><div style='max-width:150px; overflow-x:auto; white-space: nowrap;'>1</div></td>
+            <td>1.50</td>
+            <td>49.88%</td>
+            <td><div style='max-width:150px; overflow-x:auto; white-space: nowrap;'>3</div></td>
+            <td>Oui</td>
+        </tr>
+        <tr>
+            <td>169140</td>
+            <td>2025-01-19 00:00:00</td>
+            <td>FC 24. World Championship</td>
+            <td>Netherlands</td>
+            <td>Morocco</td>
+            <td>05:05</td>
+            <td>2.89</td>
+            <td>82.54%</td>
+            <td><div style='max-width:150px; overflow-x:auto; white-space: nowrap;'>5 | 2</div></td>
+            <td>1.50</td>
+            <td>74.87%</td>
+            <td><div style='max-width:150px; overflow-x:auto; white-space: nowrap;'>2 | 2</div></td>
+            <td>1.48</td>
+            <td>98.87%</td>
+            <td><div style='max-width:150px; overflow-x:auto; white-space: nowrap;'>3 | 0</div></td>
+            <td>Oui</td>
+        </tr>
+        <tr>
+            <td>169142</td>
+            <td>2025-01-19 00:00:00</td>
+            <td>FC24. Penalty</td>
+            <td>Arsenal</td>
+            <td>Liverpool</td>
+            <td>05:35</td>
+            <td>8.63</td>
+            <td>95.86%</td>
+            <td><div style='max-width:150px; overflow-x:auto; white-space: nowrap;'>9</div></td>
+            <td>4.10</td>
+            <td>82.06%</td>
+            <td><div style='max-width:150px; overflow-x:auto; white-space: nowrap;'>5</div></td>
+            <td>4.27</td>
+            <td>93.15%</td>
+            <td><div style='max-width:150px; overflow-x:auto; white-space: nowrap;'>4</div></td>
+            <td>Oui</td>
+        </tr>
+        <tr>
+            <td>169143</td>
+            <td>2025-01-19 00:00:00</td>
+            <td>FC24. Penalty</td>
+            <td>Barcelona</td>
+            <td>Manchester City</td>
+            <td>05:25</td>
+            <td>8.92</td>
+            <td>51.40%</td>
+            <td><div style='max-width:150px; overflow-x:auto; white-space: nowrap;'>6</div></td>
+            <td>4.26</td>
+            <td>0.00%</td>
+            <td><div style='max-width:150px; overflow-x:auto; white-space: nowrap;'>2</div></td>
+            <td>4.39</td>
+            <td>90.36%</td>
+            <td><div style='max-width:150px; overflow-x:auto; white-space: nowrap;'>4</div></td>
+            <td>Oui</td>
+        </tr>
+        <tr>
+            <td>170068</td>
+            <td>2025-01-19 00:00:00</td>
+            <td>FIFA23. Penalty</td>
+            <td>Arsenal</td>
+            <td>Bayern</td>
+            <td>21:35</td>
+            <td>6.54</td>
+            <td>93.38%</td>
+            <td><div style='max-width:150px; overflow-x:auto; white-space: nowrap;'>7</div></td>
+            <td>3.31</td>
+            <td>89.73%</td>
+            <td><div style='max-width:150px; overflow-x:auto; white-space: nowrap;'>3</div></td>
+            <td>3.08</td>
+            <td>77.02%</td>
+            <td><div style='max-width:150px; overflow-x:auto; white-space: nowrap;'>4</div></td>
+            <td>Oui</td>
+        </tr>
+        <tr>
+            <td>166471</td>
+            <td>2025-04-13 00:00:00</td>
+            <td>FIFA18. Penalty</td>
+            <td>Barcelona</td>
+            <td>Liverpool</td>
+            <td>04:05</td>
+            <td>5.27</td>
+            <td>0.00%</td>
+            <td><div style='max-width:150px; overflow-x:auto; white-space: nowrap;'>2</div></td>
+            <td>2.71</td>
+            <td>nan%</td>
+            <td><div style='max-width:150px; overflow-x:auto; white-space: nowrap;'>0</div></td>
+            <td>2.59</td>
+            <td>70.65%</td>
+            <td><div style='max-width:150px; overflow-x:auto; white-space: nowrap;'>2</div></td>
+            <td>Oui</td>
+        </tr>
+        <tr>
+            <td>169069</td>
+            <td>2025-04-13 00:00:00</td>
+            <td>FIFA22. Penalty</td>
+            <td>Arsenal</td>
+            <td>Barcelona</td>
+            <td>15:35</td>
+            <td>5.32</td>
+            <td>76.03%</td>
+            <td><div style='max-width:150px; overflow-x:auto; white-space: nowrap;'>7</div></td>
+            <td>2.73</td>
+            <td>91.02%</td>
+            <td><div style='max-width:150px; overflow-x:auto; white-space: nowrap;'>3</div></td>
+            <td>2.58</td>
+            <td>64.46%</td>
+            <td><div style='max-width:150px; overflow-x:auto; white-space: nowrap;'>4</div></td>
+            <td>Oui</td>
+        </tr>
+        <tr>
+            <td>169062</td>
+            <td>2025-04-13 00:00:00</td>
+            <td>FIFA18. Penalty</td>
+            <td>Liverpool</td>
+            <td>Barcelona</td>
+            <td>15:35</td>
+            <td>5.15</td>
+            <td>97.03%</td>
+            <td><div style='max-width:150px; overflow-x:auto; white-space: nowrap;'>3 | 7</div></td>
+            <td>2.68</td>
+            <td>92.61%</td>
+            <td><div style='max-width:150px; overflow-x:auto; white-space: nowrap;'>1 | 4</div></td>
+            <td>2.54</td>
+            <td>98.28%</td>
+            <td><div style='max-width:150px; overflow-x:auto; white-space: nowrap;'>2 | 3</div></td>
+            <td>Oui</td>
+        </tr>
+        <tr>
+            <td>168982</td>
+            <td>2025-04-13 00:00:00</td>
+            <td>FC25. Penalty</td>
+            <td>Al Nassr</td>
+            <td>Real Madrid</td>
+            <td>14:50</td>
+            <td>7.46</td>
+            <td>27.62%</td>
+            <td><div style='max-width:150px; overflow-x:auto; white-space: nowrap;'>27</div></td>
+            <td>3.71</td>
+            <td>26.52%</td>
+            <td><div style='max-width:150px; overflow-x:auto; white-space: nowrap;'>14</div></td>
+            <td>3.58</td>
+            <td>27.51%</td>
+            <td><div style='max-width:150px; overflow-x:auto; white-space: nowrap;'>13</div></td>
+            <td>Oui</td>
+        </tr>
+        <tr>
+            <td>168980</td>
+            <td>2025-04-13 00:00:00</td>
+            <td>FC24. Penalty</td>
+            <td>Liverpool</td>
+            <td>Real Madrid</td>
+            <td>14:40</td>
+            <td>8.70</td>
+            <td>55.04%</td>
+            <td><div style='max-width:150px; overflow-x:auto; white-space: nowrap;'>6</div></td>
+            <td>4.19</td>
+            <td>0.00%</td>
+            <td><div style='max-width:150px; overflow-x:auto; white-space: nowrap;'>2</div></td>
+            <td>4.28</td>
+            <td>93.00%</td>
+            <td><div style='max-width:150px; overflow-x:auto; white-space: nowrap;'>4</div></td>
+            <td>Oui</td>
+        </tr>
+        <tr>
+            <td>168978</td>
+            <td>2025-04-13 00:00:00</td>
+            <td>FC24. Penalty</td>
+            <td>Juventus</td>
+            <td>Liverpool</td>
+            <td>14:50</td>
+            <td>8.46</td>
+            <td>58.92%</td>
+            <td><div style='max-width:150px; overflow-x:auto; white-space: nowrap;'>6</div></td>
+            <td>4.10</td>
+            <td>97.42%</td>
+            <td><div style='max-width:150px; overflow-x:auto; white-space: nowrap;'>4</div></td>
+            <td>4.18</td>
+            <td>0.00%</td>
+            <td><div style='max-width:150px; overflow-x:auto; white-space: nowrap;'>2</div></td>
+            <td>Oui</td>
+        </tr>
+        <tr>
+            <td>170055</td>
+            <td>2025-04-13 00:00:00</td>
+            <td>FC24. Penalty</td>
+            <td>Bayern</td>
+            <td>Manchester City</td>
+            <td>19:00</td>
+            <td>8.37</td>
+            <td>60.53%</td>
+            <td><div style='max-width:150px; overflow-x:auto; white-space: nowrap;'>6</div></td>
+            <td>4.09</td>
+            <td>0.00%</td>
+            <td><div style='max-width:150px; overflow-x:auto; white-space: nowrap;'>2</div></td>
+            <td>4.12</td>
+            <td>96.93%</td>
+            <td><div style='max-width:150px; overflow-x:auto; white-space: nowrap;'>4</div></td>
+            <td>Oui</td>
+        </tr>
+        <tr>
+            <td>170068</td>
+            <td>2025-04-13 00:00:00</td>
+            <td>FIFA18. Penalty</td>
+            <td>Juventus</td>
+            <td>Arsenal</td>
+            <td>19:00</td>
+            <td>5.22</td>
+            <td>74.58%</td>
+            <td><div style='max-width:150px; overflow-x:auto; white-space: nowrap;'>7</div></td>
+            <td>2.70</td>
+            <td>90.03%</td>
+            <td><div style='max-width:150px; overflow-x:auto; white-space: nowrap;'>3</div></td>
+            <td>2.53</td>
+            <td>63.17%</td>
+            <td><div style='max-width:150px; overflow-x:auto; white-space: nowrap;'>4</div></td>
+            <td>Oui</td>
+        </tr>
+        <tr>
+            <td>169140</td>
+            <td>2025-04-13 00:00:00</td>
+            <td>FIFA22. Penalty</td>
+            <td>Bayern</td>
+            <td>Arsenal</td>
+            <td>16:00</td>
+            <td>5.17</td>
+            <td>52.42%</td>
+            <td><div style='max-width:150px; overflow-x:auto; white-space: nowrap;'>5 | 2</div></td>
+            <td>2.66</td>
+            <td>67.01%</td>
+            <td><div style='max-width:150px; overflow-x:auto; white-space: nowrap;'>2 | 2</div></td>
+            <td>2.50</td>
+            <td>33.41%</td>
+            <td><div style='max-width:150px; overflow-x:auto; white-space: nowrap;'>3 | 0</div></td>
+            <td>Oui</td>
+        </tr>
+        <tr>
+            <td>169135</td>
+            <td>2025-04-13 00:00:00</td>
+            <td>FIFA18. Penalty</td>
+            <td>Barcelona</td>
+            <td>Liverpool</td>
+            <td>16:00</td>
+            <td>5.29</td>
+            <td>67.66%</td>
+            <td><div style='max-width:150px; overflow-x:auto; white-space: nowrap;'>4</div></td>
+            <td>2.71</td>
+            <td>0.00%</td>
+            <td><div style='max-width:150px; overflow-x:auto; white-space: nowrap;'>1</div></td>
+            <td>2.59</td>
+            <td>86.23%</td>
+            <td><div style='max-width:150px; overflow-x:auto; white-space: nowrap;'>3</div></td>
+            <td>Oui</td>
+        </tr>
+        <tr>
+            <td>169142</td>
+            <td>2025-04-13 00:00:00</td>
+            <td>FIFA22. Penalty</td>
+            <td>Real Madrid</td>
+            <td>Piemonte Calcio (Juventus)</td>
+            <td>15:55</td>
+            <td>5.44</td>
+            <td>60.44%</td>
+            <td><div style='max-width:150px; overflow-x:auto; white-space: nowrap;'>9</div></td>
+            <td>2.77</td>
+            <td>55.31%</td>
+            <td><div style='max-width:150px; overflow-x:auto; white-space: nowrap;'>5</div></td>
+            <td>2.62</td>
+            <td>65.62%</td>
+            <td><div style='max-width:150px; overflow-x:auto; white-space: nowrap;'>4</div></td>
+            <td>Oui</td>
+        </tr>
+        <tr>
+            <td>169143</td>
+            <td>2025-04-13 00:00:00</td>
+            <td>FIFA22. Penalty</td>
+            <td>Real Madrid</td>
+            <td>Liverpool</td>
+            <td>16:05</td>
+            <td>5.48</td>
+            <td>91.28%</td>
+            <td><div style='max-width:150px; overflow-x:auto; white-space: nowrap;'>6</div></td>
+            <td>2.70</td>
+            <td>64.75%</td>
+            <td><div style='max-width:150px; overflow-x:auto; white-space: nowrap;'>2</div></td>
+            <td>2.85</td>
+            <td>71.21%</td>
+            <td><div style='max-width:150px; overflow-x:auto; white-space: nowrap;'>4</div></td>
+            <td>Oui</td>
+        </tr>
+    </tbody>
+</table>
+            </div>
+        </body>
+        </html>
+        
