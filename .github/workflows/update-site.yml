@@ -38,8 +38,8 @@ jobs:
       - name: Commit and push changes if any
         run: |
           # Configurez Git avec vos informations utilisateur
-          git config --global user.email "votre.email@example.com"
-          git config --global user.name "Votre Nom"
+          git config --global user.email "FranckMarcelinEKOUM@hotmail.com"
+          git config --global user.name "FranckMarcelinEKOUM"
 
           # Vérifiez s'il y a des modifications (ici, nous vérifions tout, mais vous pouvez cibler un fichier spécifique)
           if [ -n "$(git status --porcelain)" ]; then
